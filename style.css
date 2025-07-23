@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Playfair Display", serif;
+  list-style: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f9f7f5;
+}
+/* Header */
+header {
+  position: absolute;
+  width: 100%;
+  padding: 1.5rem 0;
+  top: 0;
+  left: 0;
+  justify-content: space-between;
+  display: flex;
+  background-color: #888;
+  z-index: 100;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  max-width: 12%;
+  height: 42px;
+}
+
+/* Nav- section */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2.5rem;
+  margin-right: 8rem;
+}
+
+nav li {
+  margin: 0 1.5rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: whitesmoke;
+  transition: color 0.4s ease-in-out;
+}
+
+/* Main-Section */
+main {
+  position: relative;
+  height: 4000px;
+  background-color: #b78d65;
+  padding: 0 2rem;
+  text-align: center;
+}
+.hero {
+  position: absolute;
+  width: 100%;
+  height: 400px;
+  line-height: 85px;
+  margin-top: 12rem;
+  font-size: 2.5rem;
+  color: #fff;
+}
